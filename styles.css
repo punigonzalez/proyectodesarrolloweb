@@ -1,0 +1,403 @@
+* {
+    margin: 0%;
+    padding: 0;
+    background-color: #0a141d;
+}
+body{
+    background-color: #0a141d;
+}
+.container-fluid{
+    background-color: #0a141d;
+}
+.navbar {
+    background-color: #0a141d;
+}
+.navbar-brand {
+    background-color: #0a141d;
+}
+.collapse {
+    background-color:#0a141d;
+}
+.nav-link {
+    background-color: #0a141d;
+}
+.d-flex{
+    background-color: #0a141d;
+    
+}
+
+.btn{
+    border-style: solid;
+    border-color: greenyellow;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: greenyellow;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+    
+}
+
+
+
+
+h5{
+    text-align: center;
+    color: rgb(196, 193, 193);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px 2px 2px 2px;
+    margin-bottom: 15px;
+    
+}
+
+.infoVacaciones {
+    text-align: left;
+    margin: 2% 15% 0 24%
+}
+
+.antiguedad{
+    color: #fff;
+    
+}
+p{
+    color: #fff;
+    margin: 2% 0% 0 0%
+}
+h6 {
+    color: white;
+    font-size: 37px;
+}
+
+.infoAguinaldo {
+    text-align: left;
+    margin: 2% 15% 0 24%
+}
+hr{
+    border-top: 1.5px solid greenyellow; 
+    margin: 0;
+    opacity: 100;
+
+}
+h3 {
+    text-align: center;
+    font-size: 50px;
+    color: greenyellow;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+    border-color: aliceblue;
+}
+#imagenInicio {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.d-block{
+    height: 800px;
+}
+
+
+
+.vacacionesTextoFoto {
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding:2% 22% 0% 22%;
+    background-color: #0a141d;
+
+}
+.btn {
+    color: black;
+    background-color: greenyellow;
+}
+
+.card-title {
+    color: white;
+}
+.card-text{
+    color: white;
+}
+
+.card-header {
+    color: white;
+}
+
+.row {
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 25%;
+    
+}
+#cajaVacaciones {
+    border-style: solid;
+    border-color: greenyellow;
+    margin:2% 27% 50px 30%;
+}
+#cajaAguinaldo {
+    border-style: solid;
+    border-color: greenyellow;
+    margin:2% 20% 50px 20%;
+    }
+
+
+#textoDate {
+    margin-top: 55px;
+    margin-left: 50px;
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#textoSemestre{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+#textoAñoCalcular {
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#textoSalario{
+    
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    
+}
+
+#puntosComasAg{
+    margin-top: 50px;
+    display: inline;
+    background-color:#6ec709 
+}
+#btnCalcularAguinaldo{
+    margin-left: 45%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.colorOpcionesAg{
+    border-style: solid;
+    height: 25px;
+    width: 10px;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+
+#textoDias{
+    margin-top: 55px;
+    margin-left: 50px;
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#textoSueldo {
+    margin-left: 50px;
+
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+#puntosComas{
+    padding: 0%;
+    margin: 0;
+    font-size: 14px;
+    color:rgb(212, 208, 208);
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+#inputDias {
+    border-style: solid;
+    height: 25px;
+    width: 45px;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+}
+#inputSalario {
+    border-style: solid;
+    height: 25px;
+    width: 150px;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+    display: inline
+}
+
+
+#inputDate {
+    border-style: solid;
+    height: 25px;
+    width: 110px;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+    
+}
+#inputSueldo {
+    border-style: solid;
+    height: 25px;
+    width: 150px;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+    
+}
+#inputAñoCalcular {
+    border-style: solid;
+    height: 25px;
+    width: 90px;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+    display: inline;
+
+}
+#lang {
+    color: white;
+}
+#btnCalcular {
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0a141d;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    background-color: #0a141d;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.siguenos {
+    text-align: left;
+    background-color: #0a141d;  
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color:white ;
+    margin-bottom: 25px;
+    font-size: 20px;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color:greenyellow;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+    background-color:#0a1a2a;
+}
+b{
+    background-color:#0a1a2a;
+}
+.contacto {
+    display: inline;
+    justify-content: left;
+    
+}
+.fa-solid {
+    color: greenyellow;
+    margin-right: 5%;
+    background-color: #0a141d;
+}
+
+i {
+    background-color: rgba(5,10,30,255);
+    margin:1% 0 0 2%;
+}
+.numeroTelefono {
+    font-size: 15px;
+    color: white;
+    
+
+}
+.mail{
+    font-size: 15px;
+    color: white;
+    
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
